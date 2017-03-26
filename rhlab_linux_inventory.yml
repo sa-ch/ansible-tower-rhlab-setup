@@ -1,0 +1,11 @@
+[Linux Hosts]
+srv-01.rhlab.ch
+srv-02.rhlab.ch
+srv-03.rhlab.ch
+srv-04.rhlab.ch
+srv-05.rhlab.ch
+
+[Linux Hosts:vars]
+ansible_user=root
+ansible_password=redhat1234
+

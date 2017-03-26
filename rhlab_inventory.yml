@@ -1,0 +1,24 @@
+[Linux Hosts]
+srv-01.rhlab.ch
+srv-02.rhlab.ch
+srv-03.rhlab.ch
+srv-04.rhlab.ch
+srv-05.rhlab.ch
+
+[Linux Hosts:vars]
+ansible_user=root
+ansible_password=redhat1234
+
+[Windows Hosts]
+win_2012r2.rhlab.ch
+
+[Windows Hosts:vars]
+ansible_user=administrator
+ansible_password=00Penwin
+ansible_port=5985
+ansible_connection=winrm
+#ansible_winrm_scheme=http
+ansible_ssh_port=5986
+ansible_winrm_server_cert_validation=ignore
+
+
